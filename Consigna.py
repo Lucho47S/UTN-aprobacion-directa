@@ -9,11 +9,13 @@ ventas = [
     [40, 65, 75]   # Producto C
 ]
 
+"""
 for i in range(len(ventas)):
     num = 1
     for j in range(len(ventas)):
         ventas[i][j] = int(input(f"Ingresa las ventas de {productos[i]} en el Trimestre {num}: "))
         num += 1
+"""
 
 # Iniciar el programa
 menu(productos, ventas)
